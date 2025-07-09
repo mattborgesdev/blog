@@ -46,7 +46,7 @@ export default function Header() {
         <Link
           className={`group relative -m-12 -my-2 -mr-4 flex items-center rounded py-2 pl-12 pr-4 ${isHome ? "ring-0" : "ring-1"} ring-sky-500 ring-opacity-0 transition-all max-sm:text-center sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0`}
           href="/"
-          aria-label="Back to home"
+          aria-label="Voltar ao início"
         >
           <div
             className={`${isHome ? "hidden" : "absolute"} left-1 flex size-4 h-full w-12 items-center px-2`}
@@ -54,9 +54,9 @@ export default function Header() {
             <ChevronLeft strokeWidth={1.4} />
           </div>
           <div className="flex flex-col max-sm:items-center">
-            Luke Berry
+            Matheus Borges
             <span className="text-zinc-500 dark:text-zinc-400">
-              Software Engineer
+              SRE/DevOps Engineer
             </span>
           </div>
         </Link>

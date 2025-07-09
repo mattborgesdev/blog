@@ -74,8 +74,7 @@ export default function AboutPage() {
           live.
         </p>
         <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
+          If you want to get in touch, send me an email{" "}
           <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
         </p>
         <p>Smile, you&apos;re alive :)</p>
