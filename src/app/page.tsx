@@ -54,8 +54,8 @@ const externalLinks: Link[] = [
   },
   {
     name: "GitHub",
-    description: "steal my code",
-    url: "https://github.com/mattborgesdev",
+    description: "steal this code too",
+    url: "https://github.com/mattborgesdev/mattborgesdev.github.io",
     icon: <SiGithub />,
   },
 ];
@@ -86,9 +86,9 @@ export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-sm">
-        London-based Brazilian obsessed with UI for a decade. Working as a
-        Software Engineer for half that time. I love Raycast, TailwindCSS,
-        DJing, playing football, and creating pretty websites.
+        Brazilian SRE/DevOps enthusiast based in Brasília-DF, shaping infrastructure for 3 years.
+        Currently Cloud Development Analyst at TOTVS. I live for tabletop RPGs and automating
+        everything with Terraform and Ansible. Passionate about magic of well-orchestrated pipelines.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (

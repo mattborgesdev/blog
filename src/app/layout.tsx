@@ -55,6 +55,13 @@ export default function RootLayout({
             >
               RSS Feed
             </Link>
+            <a
+              className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
+              href="https://github.com/mattborgesdev"
+              target="_blank"
+            >
+              @mattborgesdev
+            </a>
           </div>
           <blockquote className="text-zinc-800 dark:text-zinc-300">
             Smile, you&apos;re alive :)
