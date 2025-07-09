@@ -48,13 +48,6 @@ export default function RootLayout({
             >
               Code
             </a>
-            <Link
-              className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
-              target="_blank"
-              href="/rss.xml"
-            >
-              RSS Feed
-            </Link>
             <a
               className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
               href="https://github.com/mattborgesdev"
@@ -64,7 +57,7 @@ export default function RootLayout({
             </a>
           </div>
           <blockquote className="text-zinc-800 dark:text-zinc-300">
-            Smile, you&apos;re alive :)
+            Compiled with arcane knowledge.
           </blockquote>
         </footer>
       </body>

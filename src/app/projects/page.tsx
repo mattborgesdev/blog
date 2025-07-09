@@ -17,7 +17,7 @@ const projects: Project[] = [
     description:
       "Application to compare prices between two products, informing which one offers the best cost-benefit based on the price and quantity entered.",
     url: "https://calculadora-de-precos.onrender.com",
-    imageUrl: "/projects/css2wind.png",
+    imageUrl: "/projects/no-image.png",
     githubUrl: "https://github.com/mattborgesdev/calculadora-de-precos",
     technologies: (
       <div className="flex items-center gap-x-3">
