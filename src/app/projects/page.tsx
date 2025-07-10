@@ -17,7 +17,7 @@ const projects: Project[] = [
     description:
       "Application to compare prices between two products, informing which one offers the best cost-benefit based on the price and quantity entered.",
     url: "https://calculadora-de-precos.onrender.com",
-    imageUrl: "/projects/no-image.png",
+    imageUrl: "/projects/calculadora-de-preco.png",
     githubUrl: "https://github.com/mattborgesdev/calculadora-de-precos",
     technologies: (
       <div className="flex items-center gap-x-3">
@@ -56,7 +56,7 @@ function ProjectCard({
         src={imageUrl}
         width={620}
         height={324}
-        alt="Logo for css2wind website"
+        alt="Logo for project"
       />
       <div className="flex w-full justify-between divide-x divide-zinc-400 dark:divide-zinc-500">
         <a
