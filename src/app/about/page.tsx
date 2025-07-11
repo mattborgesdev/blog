@@ -6,7 +6,7 @@ export default function AboutPage() {
       </h1>
       <article>
         <p>
-          I'm Matheus Borges, an SRE/DevOps engineer with experience in infrastructure automation, cloud computing, and CI/CD best practices. I work with tools like <b>Terraform, Ansible, Packer, Docker, and GitHub Actions</b> to turn infrastructure into reliable, scalable, and maintainable code.
+          I&apos;m Matheus Borges, an SRE/DevOps engineer with experience in infrastructure automation, cloud computing, and CI/CD best practices. I work with tools like <b>Terraform, Ansible, Packer, Docker, and GitHub Actions</b> to turn infrastructure into reliable, scalable, and maintainable code.
         </p>
         <p>
           My journey began by managing a LAN house, where I developed both technical and <b>interpersonal skills</b> while handling customer service and performing computer and systems maintenance.
