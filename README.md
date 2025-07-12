@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# mattborgesdev.github.io
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
-## Getting Started
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com [Next.js](https://nextjs.org/).
 
-First, run the development server:
+## Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/) — Framework React para sites rápidos e modernos.
+- [TypeScript](https://www.typescriptlang.org/) — JavaScript com tipagem estática.
+- [Tailwind CSS](https://tailwindcss.com/) — Utilitários CSS para estilização ágil.
+- [next/font](https://nextjs.org/docs/basic-features/font-optimization) — Otimização de fontes web.
+- [GitHub Pages](https://pages.github.com/) — Hospedagem gratuita para sites estáticos.
+
+## Como rodar localmente
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/mattborgesdev/mattborgesdev.github.io.git
+cd mattborgesdev.github.io
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador para visualizar o site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `src/app/` — Páginas e componentes principais do site.
+- `public/` — Imagens e arquivos estáticos.
+- `src/components/` — Componentes reutilizáveis.
+- `src/app/globals.css` — Estilos globais.
+- `tailwind.config.ts` — Configuração do Tailwind CSS.
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
+O deploy é realizado automaticamente no [GitHub Pages](https://pages.github.com/) sempre que há um push na branch principal. O projeto está configurado para exportação estática e publicação automática. No entanto, existe uma limitação relacionada ao DNS: após cada deploy, é necessário reconfigurar o domínio personalizado em Settings > Code and Automation > Pages > Custom domain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Sinta-se à vontade para abrir issues ou pull requests com sugestões de melhorias ou correções.
 
-## Deploy on Vercel
+## Saiba Mais
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Documentação Next.js](https://nextjs.org/docs)
+- [Meu LinkedIn](https://www.linkedin.com/in/mattborgesdev/)
+- [Portfólio Online](https://mattborgesdev.github.io/)
